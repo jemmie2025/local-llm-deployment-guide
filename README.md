@@ -40,6 +40,8 @@ Results represent one measured inference run.
 | [Laptop Guide](docs/guides/laptop-setup.md) | Validated CPU deployment |
 | [24 GB GPU Guide](docs/guides/gpu-24gb-setup.md) | GPU deployment procedures |
 | [Benchmark Results](benchmarks/results-summary.md) | Measured CPU performance |
+| [Throughput Estimates](docs/research/throughput-estimates.md) | Analytical RTX 4090 performance scenarios |
+| [GPU Validation](docs/research/gpu-validation.md) | Hardware findings and limitations |
 | [References](docs/research/references.md) | Technical sources |
 
 ## Reproduce
@@ -61,8 +63,11 @@ Benchmark a running Ollama instance:
 - CPU model deployment: PASS
 - Local inference API: PASS
 - CPU benchmark: PASS
-- Automated tests: 8 passed
-- 24 GB GPU deployment: Not tested
+- Automated tests: 12 passed
+- GPU hardware detection: Completed (Intel Iris Xe)
+- NVIDIA CUDA GPU: Not available locally
+- 24 GB GPU deployment: Documented, not tested
+- GPU throughput: Analytical estimates only
 
 ## Limitations
 
@@ -83,4 +88,3 @@ unless access controls are implemented.
 Model licenses, credentials, and sensitive data
 must be reviewed before deployment.
 
-[GPU Throughput Estimates](docs/research/throughput-estimates.md) — modeled RTX 4090 performance scenarios.
