@@ -88,3 +88,14 @@ unless access controls are implemented.
 Model licenses, credentials, and sensitive data
 must be reviewed before deployment.
 
+## Validation Evidence
+
+### CPU Inference — Ollama
+
+![CPU inference](evidence/screenshots/01-ollama-cpu-inference.png)
+
+### CPU Benchmark — Qwen3 0.6B
+
+![Benchmark results](evidence/screenshots/02-ollama-benchmark.png)
+
+GPU inference remains untested because compatible NVIDIA hardware is unavailable.
