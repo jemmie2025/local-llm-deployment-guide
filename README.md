@@ -82,3 +82,5 @@ unless access controls are implemented.
 
 Model licenses, credentials, and sensitive data
 must be reviewed before deployment.
+
+[GPU Throughput Estimates](docs/research/throughput-estimates.md) — modeled RTX 4090 performance scenarios.
